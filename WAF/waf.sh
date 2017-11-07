@@ -24,5 +24,6 @@ printf "Creating WAF Template: \033[0K\r"
 printf '\n'
 aws cloudformation create-stack --stack-name $STACKNAME --template-body $TEMPLATELOCATION --capabilities CAPABILITY_NAMED_IAM                        
 
-printf "Check Cloud Formation Console For Build Process.\033[0K\r"
+printf '\n'
+printf "Done! Check Cloud Formation Console For Build Process.\033[0K\r"
 printf '\n' 
