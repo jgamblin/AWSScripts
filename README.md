@@ -17,5 +17,7 @@ More Details [Here](https://jerrygamblin.com/2017/11/04/automating-digicert-cert
 
 **_EC2/notused.sh_**: Lists all unused security groups that can likely be removed.
 
+**_EC2/instances.sh_**: Lists all EC2 Instances in all AvailabilityZones. 
+
 ## Important Notice
 *I likely dont know what I am doing and this could be done faster, better and simpler some other way. These scripts could also break your cloud and make you cry.*
