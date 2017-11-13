@@ -10,6 +10,8 @@ You will need the [AWS-CLI](https://aws.amazon.com/cli/) installed and configure
 
 **_ACM/acmdigicert.sh_**: Creates Digicert TLS certificates using their API and uploads them to ACM.<br>
 
+**_Cloudfront/quickaudit.sh_**: Quickly audits CloudFront for WAF, Logging, TLS and HTTP Only usage.<br>
+
 **_EC2/noingress.sh_**: Lists all in-use security groups that allow 0.0.0.0/0 for your inspection.
 
 **_EC2/notused.sh_**: Lists all unused security groups that can likely be removed.
