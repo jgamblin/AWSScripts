@@ -1,6 +1,5 @@
 #!/bin/bash
 printf "Cloudfront Quick Audit Check.\n\n"
-aws configure set preview.cloudfront true
 cdns=$(aws cloudfront list-distributions  --query 'DistributionList.Items[].Id' --output text)
   for cdn in $cdns; do
 
