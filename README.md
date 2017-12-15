@@ -22,5 +22,7 @@ You will need the [AWS-CLI](https://aws.amazon.com/cli/) installed and configure
 
 **_EC2/SecurityGroups/removessh.sh_**: Removes rules allowing SSH access from your current public IP address.
 
+**_GuardDuty/enale.sh_**: Enables GuardDuty in all avalbile regions. 
+
 ## Important Notice
 *I likely dont know what I am doing and this could be done faster, better and simpler some other way. These scripts could also break your cloud and make you cry.*
