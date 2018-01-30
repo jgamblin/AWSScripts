@@ -26,7 +26,9 @@ You will need the [AWS-CLI](https://aws.amazon.com/cli/) installed and configure
 
 **_GuardDuty/findings.sh_**: Exports all GuardDuty findings to .json files.
 
-**_S3/policies.sh_**: Lists all ACLs for S3 buckets in your account. 
+**_S3/policies.sh_**: Lists all ACLs for S3 buckets in your account.
+
+**_IAM/EC2USEastOnly.json**: IAM policy that only allows EC2 instances in US-East-1. 
 
 ## Important Notice
 *I likely dont know what I am doing and this could be done faster, better and simpler some other way. These scripts could also break your cloud and make you cry.*

@@ -1,0 +1,43 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "ec2:*",
+            "Resource": "*",
+            "Condition": {
+                "StringEquals": {
+                    "ec2:Region": "us-east-1"
+                }
+            }
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Deny",
+            "Action": "ec2:*",
+            "Resource": "*",
+            "Condition": {
+                "StringEquals": {
+                    "ec2:Region": [
+                        "us-east-2",
+                        "us-west-1",
+                        "us-west-2",
+                        "ca-central-1",
+                        "cn-north-1",
+                        "eu-west-1",
+                        "eu-central-1",
+                        "eu-west-2",
+                        "eu-west-3",
+                        "ap-northeast-1",
+                        "ap-northeast-2",
+                        "ap-southeast-1",
+                        "ap-southeast-2",
+                        "ap-south-1",
+                        "sa-east-1"
+                    ]
+                }
+            }
+        }
+    ]
+}
