@@ -28,7 +28,9 @@ You will need the [AWS-CLI](https://aws.amazon.com/cli/) installed and configure
 
 **_S3/policies.sh_**: Lists all ACLs for S3 buckets in your account.
 
-**_IAM/EC2USEastOnly.json**: IAM policy that only allows EC2 instances in US-East-1. 
+**_IAM/EC2USEastOnly.json_**: IAM policy that only allows EC2 instances in US-East-1.
+
+**_IAM/userreport.sh_**: Downloads the credential [report](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_getting-report.html) for for all configured profiles in ~/.aws/credentials.
 
 ## Important Notice
-*I likely dont know what I am doing and this could be done faster, better and simpler some other way. These scripts could also break your cloud and make you cry.*
+_I likely dont know what I am doing and this could be done faster, better and simpler some other way. These scripts could also break your cloud and make you cry._
